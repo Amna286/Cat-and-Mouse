@@ -5,7 +5,7 @@ var backgroundImage;
 function preload() {
     catImage = loadImage("tomOne.png");
     mouseImage = loadImage("mouseOne.png");
-    catAnimation = loadAnimation("tomOne.png", "tomTwo.png", "tomThree.ong", "tomFour.png");
+    catAnimation = loadAnimation("tomOne.png", "tomTwo.png", "tomThree.png", "tomFour.png");
     mouseAnimation = loadAnimation("jerryOne.png", "jerryTwo.png", "jerryThree.png", "jerryFour.png");
 }
 
