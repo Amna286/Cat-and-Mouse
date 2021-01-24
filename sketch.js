@@ -3,10 +3,10 @@ var catImage, mouseImage, catAnimation, mouseAnimation;
 var backgroundImage;
 
 function preload() {
-    catImage = loadImage("tomOne.png");
-    mouseImage = loadImage("mouseOne.png");
-    catAnimation = loadAnimation("tomOne.png", "tomTwo.png", "tomThree.png", "tomFour.png");
-    mouseAnimation = loadAnimation("jerryOne.png", "jerryTwo.png", "jerryThree.png", "jerryFour.png");
+    catImage = loadImage("images/tomOne.png");
+    mouseImage = loadImage("images/mouseOne.png");
+    catAnimation = loadAnimation("images/tomOne.png", "tomTwo.png", "tomThree.png", "tomFour.png");
+    mouseAnimation = loadAnimation("images/jerryOne.png", "jerryTwo.png", "jerryThree.png", "jerryFour.png");
 }
 
 function setup(){
